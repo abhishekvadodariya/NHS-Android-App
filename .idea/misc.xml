@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/drawable/app_icon.xml" value="0.126" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.126" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/a_base.xml" value="0.228125" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/a_forgot_password.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/a_home.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/activity_sign_up.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/f_base.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/fragment_dashboard.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/fragment_home.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/fragment_notifications.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/r_form.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/v_adapter_state.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/v_content_loading.xml" value="0.2421875" />
+        <entry key="..\:/Users/ABHISHEK VADODARIYA/OneDrive/Desktop/NHS Project/NHS/2022/app/src/main/res/layout/v_recycler_states.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

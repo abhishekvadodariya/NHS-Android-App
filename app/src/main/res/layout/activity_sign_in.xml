@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_large"
+    tools:context=".view.SignInActivity">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/app_icon"
+        android:transitionName="app_icon"
+        android:layout_marginTop="@dimen/margin_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:includeFontPadding="false"
+        android:text="@string/welcome_back"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_large2"
+        android:transitionName="@string/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_image" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/a_signIn_username"
+            style="@style/CustomEditTextTheme"
+            android:hint="@string/username"
+            android:transitionName="@string/username"
+            app:errorEnabled="true"
+            app:layout_constraintBottom_toTopOf="@+id/a_sign_in_password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/a_signin_edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/app_text_color_dark"
+                android:textSize="@dimen/font_size_small"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/a_sign_in_password"
+            style="@style/CustomEditTextTheme"
+            android:hint="@string/password"
+            android:transitionName="@string/password"
+            app:errorEnabled="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/a_sign_in_edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/app_text_color_dark"
+                android:textSize="@dimen/font_size_small" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/sign_in_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titilliumweb_semibold"
+        android:includeFontPadding="false"
+        android:text="@string/signup_forgot_password"
+        android:textSize="16sp"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/font_size_micro1"
+        android:transitionName="@string/signup_forgot_password"
+        app:layout_constraintStart_toStartOf="@+id/a_signin_btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/a_sign_in_password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:transitionName="@string/login"
+            android:id="@+id/a_signin_btn_login"
+            android:includeFontPadding="false"
+            android:text="@string/login"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_in_forgot_password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/a_signin_btn_signup"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user_sign_up"
+            android:transitionName="@string/new_user_sign_up"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <com.nhs.view.fragment.ContentLoadingView
+        android:id="@+id/a_base_v_content_loading_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

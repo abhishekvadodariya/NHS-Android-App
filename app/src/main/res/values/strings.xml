@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NHS Voice</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome_to_nhs_voice">Welcome to NHS Voice</string>
+    <string name="your_app_tag_line">NHS Voice</string>
+    <string name="sign_in_to_continue">Sign In to Continue</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password_send">SEND</string>
+    <string name="new_user_sign_up">New user sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="signup_to_start_your_new_journey">Sign up to start new journey with us</string>
+    <string name="signup_forgot_password">Forgot Password</string>
+    <string name="full_name">Name</string>
+    <string name="form_submit">SUBMIT</string>
+    <string name="email_id">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="somethig_went_wrong">Something went wrong</string>
+    <string name="signup_successful">Signup Successful</string>
+    <string name="home_successful">Data Send Successfully</string>
+    <string name="internet_not_available">Internet not available</string>
+
+    <string name="enter_name">Please Enter Name</string>
+    <string name="enter_email">Please Enter Valid Email</string>
+    <string name="enter_valid_password">at least 6 characters or numbers</string>
+    <string name="enter_confirm">Password does not match</string>
+    <string name="valid_password">Please Enter Valid Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_message">Please Enter Valid Email Address verification link will be send in your Email Address</string>
+    <string name="forgot_password_success_message">Email Send Successfully Please check your Email for verification</string>
+
+</resources>

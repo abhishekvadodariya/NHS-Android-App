@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/r_form_tv_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today my relative or friend was vomiting"
+        android:textSize="@dimen/font_size_large"
+        android:textColor="@color/app_text_color_dark"
+        android:fontFamily="sans-serif-medium" />
+
+    <RadioGroup
+        android:id="@+id/r_form_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_micro4">
+
+        <RadioButton
+            android:id="@+id/r_form_rb_ans_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All of the time"
+            android:textColor="@color/app_text_color_light"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/font_size_medium" />
+
+        <RadioButton
+            android:id="@+id/r_form_rb_ans_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Most of the time"
+            android:textColor="@color/app_text_color_light"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/font_size_medium" />
+
+        <RadioButton
+            android:id="@+id/r_form_rb_ans_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some of the time"
+            android:textColor="@color/app_text_color_light"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/font_size_medium" />
+
+        <RadioButton
+            android:id="@+id/r_form_rb_ans_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of the time"
+            android:textColor="@color/app_text_color_light"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/font_size_medium" />
+
+        <RadioButton
+            android:id="@+id/r_form_rb_ans_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don’t know"
+            android:textColor="@color/app_text_color_light"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/font_size_medium" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/r_form_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/margin_micro4"
+        android:background="@color/divider"/>
+
+</LinearLayout>
