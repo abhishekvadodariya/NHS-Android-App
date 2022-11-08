@@ -1,10 +1,9 @@
 package com.nhs.presenter
 
 import com.nhs.contract.ForgotPasswordContract
-import com.nhs.contract.LoginContract
 import com.nhs.model.api.JobAPI
 import com.nhs.model.api.JobServices
-import com.nhs.model.modelClass.ForgotPasswordRes
+import com.nhs.model.repos.ForgotPasswordRes
 import com.nhs.mvp.BasePresenter
 import retrofit2.Call
 import retrofit2.Response

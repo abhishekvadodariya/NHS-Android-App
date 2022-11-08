@@ -4,7 +4,6 @@ import android.content.Context
 import android.net.ConnectivityManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.view.View
 import android.widget.TextView
 import androidx.annotation.StringRes
@@ -14,7 +13,8 @@ import com.nhs.R
 import com.nhs.adapter.FormAdapter
 import com.nhs.adapter.recycler.SmartRecyclerView
 import com.nhs.contract.HomeContract
-import com.nhs.model.modelClass.Data
+import com.nhs.model.modelClass.QuestionChoicesReq
+import com.nhs.model.repos.Data
 import com.nhs.presenter.HomePresenter
 import kotlinx.android.synthetic.main.a_home.*
 
@@ -55,11 +55,31 @@ class HomeActivity : AppCompatActivity(),HomeContract.View {
     }
     private fun attachListener() {
         a_home_submit.setOnClickListener(View.OnClickListener {
-            showProgress()
+            /*showProgress()
             Handler().postDelayed({
                 hideProgress()
                 showSignupSuccessful()
-            },3000)
+            },3000)*/
+            var form_filler_name = "John Doe"
+            var form_filler_phone = "12356987"
+            var form_filler_email = "ohee@gmail.com"
+            var form_filler_address_line_1 = "Teesside University"
+            var form_filler_address_line_2 = "Middlesbrough"
+            var form_filler_post_code = "TS1 3PB"
+            var form_filler_city = "Middlesbrough"
+            var patient_name = "John Kein"
+            var patient_date_of_birth = "11/11/1997"
+            var patient_crn_number = "234234"
+            var patient_nhs_number = "NHS132333"
+            var form_filler_relationship_with_patient = "Friend"
+            var details = "My friend is in pain"
+            var discuss_permission = "0"
+            var hear_back_permission = "1"
+            var question_and_choices = ArrayList<QuestionChoicesReq>()
+
+            homePresenter.postQuotationList(form_filler_name,form_filler_phone,form_filler_email,form_filler_address_line_1,
+                form_filler_address_line_2,form_filler_post_code,form_filler_city,patient_name,patient_date_of_birth,patient_crn_number,
+                patient_nhs_number,form_filler_relationship_with_patient,details,discuss_permission,hear_back_permission,question_and_choices)
 
         })
     }

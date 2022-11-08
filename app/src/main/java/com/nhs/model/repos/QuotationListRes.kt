@@ -1,8 +1,9 @@
-package com.nhs.model.modelClass
+package com.nhs.model.repos
 
 import com.google.gson.annotations.SerializedName
+import com.nhs.model.modelClass.BaseResult
 
-class QuotationListRes:BaseResult() {
+class QuotationListRes: BaseResult() {
     @SerializedName("status")
     var status : String? = null
 

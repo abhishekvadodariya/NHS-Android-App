@@ -4,11 +4,10 @@ package com.nhs.presenter
 import com.nhs.contract.RegisterContract
 import com.nhs.model.api.JobAPI
 import com.nhs.model.api.JobServices
-import com.nhs.model.modelClass.RegisterRes
+import com.nhs.model.repos.RegisterRes
 import com.nhs.mvp.BasePresenter
 import retrofit2.Call
 import retrofit2.Response
-import java.util.*
 
 
 class RegisterPresenter constructor(view: RegisterContract.View):BasePresenter<RegisterContract.View>(view),RegisterContract.UserAction{

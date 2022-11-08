@@ -1,8 +1,9 @@
-package com.nhs.model.modelClass
+package com.nhs.model.repos
 
 import com.google.gson.annotations.SerializedName
+import com.nhs.model.modelClass.BaseResult
 
- class User: BaseResult() {
+class User: BaseResult() {
 
     @SerializedName("id")
     var id: Int? = 0

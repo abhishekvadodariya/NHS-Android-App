@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.nhs.R
 import com.nhs.adapter.recycler.SmartRecyclerAdapter
-import com.nhs.model.modelClass.Data
+import com.nhs.model.repos.Data
 
 class FormAdapter(var context: Context): SmartRecyclerAdapter<Data>() {
 
